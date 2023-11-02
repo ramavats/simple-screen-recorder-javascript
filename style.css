@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: xx-large;
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+#button:hover {
+    background: linear-gradient(to right, #434343, #000000);
+}
